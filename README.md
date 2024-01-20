@@ -8,3 +8,7 @@ pip install pygame
 conda install conda-forge::transformers
 conda install anaconda::scikit-learn
 ```
+
+```
+python env6-box-arrange-train_MCTS.py
+```
