@@ -2,6 +2,9 @@
 
 This project is for automatic prompt optimization with a focus on multi-step tasks.
 ```
+conda create -n PROMST python=3.10
+conda activate PROMST
+conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 conda install conda-forge::tiktoken
 pip install openai
 pip install pygame
