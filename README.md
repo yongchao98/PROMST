@@ -13,5 +13,5 @@ conda install anaconda::scikit-learn
 ```
 
 ```
-python env6-box-arrange-train_MCTS.py
+python env3-box-arrange-train_MCTS.py -experiment_trial_num 1 -input_error_prompt_token_limit 15000 -model_name_promptLLM gpt-4-1106-preview -model_name_testLLM gpt-3.5-turbo-16k-0613 -min_level 2 -prompt_method PROMST 
 ```
