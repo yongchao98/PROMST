@@ -19,5 +19,8 @@ python env3-box-arrange-train_MCTS.py
 -model_name_promptLLM gpt-4-1106-preview
 -model_name_testLLM gpt-3.5-turbo-16k-0613
 -min_level 2
--prompt_method PROMST 
+-prompt_method PROMST
+-Training_path ../BoxLift/train_set/
+-Testing_path ../BoxLift/test_set/
+-base_path ../BoxLift/train_set/
 ```
