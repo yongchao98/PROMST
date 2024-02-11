@@ -10,6 +10,9 @@ pip install openai
 pip install pygame
 conda install conda-forge::transformers
 conda install anaconda::scikit-learn
+pip install gym==0.26.2
+pip install pddlgym
+pip install tarski
 ```
 
 ```
