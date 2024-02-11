@@ -22,5 +22,5 @@ python env3-box-arrange-train_MCTS.py
 -prompt_method PROMST
 -Training_path ../BoxLift/train_set/
 -Testing_path ../BoxLift/test_set/
--base_path ../BoxLift/train_set/
+-base_path ../BoxLift/
 ```
