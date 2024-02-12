@@ -1,6 +1,9 @@
 # PRompt Optimization in Multi-Step Tasks (PROMST): Integrating Human Feedback and Preference Alignment
 
 This project is for automatic prompt optimization with a focus on multi-step tasks.
+
+## Requirements
+Please setup the environment with conda and pip as follows:
 ```
 conda create -n PROMST python=3.10
 conda activate PROMST
