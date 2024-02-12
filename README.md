@@ -39,3 +39,9 @@ python env3-box-arrange-train_MCTS.py
 | experiment_trial_num | 1, 2, 3, ... | The trial number to record each trial |
 | input_error_prompt_token_limit | 10000, 15000, 20000, ... | The prompt maximum token length for context sliding window |
 | model_name_promptLLM | gpt-3.5-turbo-16k-0613, gpt-3.5-turbo-0301, gpt-4-1106-preview | LLM type of PromptLLM |
+| model_name_testLLM | gpt-3.5-turbo-16k-0613, gpt-3.5-turbo-0301, gpt-4-1106-preview | LLM type of TestLLM |
+| min_level | 1, 2, 3, ... | Minimum number of prompt levels to be explored |
+| prompt_method | PROMST, APE, APO | Prompt optimziation methods |
+| with_score_model | 'False', 'True' | Whether implementing socre model in PROMST |
+| Training_path | ../BoxLift/train_set/ | The path to the created train_set path |
+| Tesing_path | ../BoxLift/train_set/, ../BoxLift/test_set/ | The path to the created test_set path |
