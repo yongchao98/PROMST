@@ -34,8 +34,8 @@ python env3-box-arrange-train_MCTS.py
 -base_path ../BoxLift/
 ```
 
-| Column 1 Header | Column 2 Header |
-| --------------- | --------------- |
-| Row 1, Column 1 | Row 1, Column 2 |
-| Row 2, Column 1 | Row 2, Column 2 |
-| Row 3, Column 1 | Row 3, Column 2 |
+| Args to be set | Choices | Explanation |
+| --------------- | --------------- | --------------- |
+| experiment_trial_num | 1, 2, 3, ... | The trial number to record each trial |
+| input_error_prompt_token_limit | 10000, 15000, 20000, ... | The prompt maximum token length for context sliding window |
+| model_name_promptLLM | gpt-3.5-turbo-16k-0613, gpt-3.5-turbo-0301, gpt-4-1106-preview | LLM type of PromptLLM |
