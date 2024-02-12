@@ -44,4 +44,4 @@ python env3-box-arrange-train_MCTS.py
 | prompt_method | PROMST, APE, APO | Prompt optimziation methods |
 | with_score_model | 'False', 'True' | Whether implementing socre model in PROMST |
 | Training_path | ../BoxLift/train_set/ | The path to the created train_set path |
-| Tesing_path | ../BoxLift/train_set/, ../BoxLift/test_set/ | The path to the created test_set path |
+| Tesing_path | ../BoxLift/train_set/, ../BoxLift/test_set/ | The path to the created test_set path (be the same as the Training_path during optimization) |
