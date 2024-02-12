@@ -33,3 +33,9 @@ python env3-box-arrange-train_MCTS.py
 -Testing_path ../BoxLift/test_set/
 -base_path ../BoxLift/
 ```
+
+| Column 1 Header | Column 2 Header |
+| --------------- | --------------- |
+| Row 1, Column 1 | Row 1, Column 2 |
+| Row 2, Column 1 | Row 2, Column 2 |
+| Row 3, Column 1 | Row 3, Column 2 |
