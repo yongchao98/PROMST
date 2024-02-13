@@ -33,6 +33,8 @@ python env3-box-arrange-train_MCTS.py
 -model_name_promptLLM gpt-4-1106-preview
 -model_name_testLLM gpt-3.5-turbo-16k-0613
 -min_level 2
+-n_children 8
+-n_selected 2
 -prompt_method PROMST
 -with_score_model 'False'
 -Training_path ../BoxLift/train_set/
@@ -47,6 +49,8 @@ python env3-box-arrange-train_MCTS.py
 | model_name_promptLLM | gpt-3.5-turbo-16k-0613, gpt-3.5-turbo-0301, gpt-4-1106-preview | LLM type of PromptLLM |
 | model_name_testLLM | gpt-3.5-turbo-16k-0613, gpt-3.5-turbo-0301, gpt-4-1106-preview | LLM type of TestLLM |
 | min_level | 1, 2, 3, ... | Minimum number of prompt levels to be explored |
+| n_children | 4, 8, 12, ... | Number of prompts to be expanded in each level |
+| n_selected | 2, 3, 4, ... | Number of best prompts to be further optimized in each level |
 | prompt_method | PROMST, APE, APO | Prompt optimziation methods |
 | with_score_model | 'False', 'True' | Whether implementing socre model in PROMST |
 | Training_path | ../BoxLift/train_set/ | The path to the created train_set path |
