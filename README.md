@@ -17,7 +17,7 @@ pip install gym==0.26.2
 pip install pddlgym
 pip install tarski
 ```
-Note that when doing the **Logistics** and **BlocksWorld** tasks, we slightly modify the pddlgym files. *Thus, you need to substitute the original installed pddlgym directory (e.g., /Users/Your user name/opt/anaconda3/envs/PROMST/lib/python3.10/site-packages/pddlgym) with the pddlgym directory in BlocksWorld/env_data_BlocksWorld/pddlgym.*
+Note that when doing the **Logistics** and **BlocksWorld** tasks, we slightly modify the pddlgym files. **Thus, you need to substitute the original installed pddlgym directory in packages (e.g., /Users/Your user name/opt/anaconda3/envs/PROMST/lib/python3.10/site-packages/pddlgym) with the pddlgym directory in BlocksWorld/env_data_BlocksWorld/pddlgym. Like the following code:** 
 ```
 cd /Users/Your user name/opt/anaconda3/envs/PROMST/lib/python3.10/site-packages
 cp -r /Your path to PROMST/PROMST/BlocksWorld/env_data_BlocksWorld/pddlgym ./
