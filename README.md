@@ -33,7 +33,7 @@ python env3-box-arrange-train_MCTS.py
 -model_name_promptLLM gpt-4-1106-preview
 -model_name_testLLM gpt-3.5-turbo-16k-0613
 -min_level 2
--n_children 8
+-n_children 4
 -n_selected 2
 -prompt_method PROMST
 -with_score_model 'False'
