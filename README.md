@@ -56,3 +56,11 @@ python env3-box-arrange-train_MCTS.py
 | Training_path | ../BoxLift/train_set/ | The path to the created train_set path |
 | Tesing_path | ../BoxLift/train_set/, ../BoxLift/test_set/ | The path to the created test_set path (be the same as the Training_path during optimization) |
 | base_path | ../BoxLift/ | The base path to save the prompt optimization results |
+
+## Recommended Work
+
+[Large language models are human-level prompt engineers](https://arxiv.org/abs/2211.01910)
+
+[Automatic Prompt Optimization with “Gradient Descent” and Beam Search](https://arxiv.org/abs/2305.03495)
+
+[Scalable Multi-Robot Collaboration with Large Language Models: Centralized or Decentralized Systems?](https://yongchao98.github.io/MIT-REALM-Multi-Robot/)
