@@ -25,7 +25,7 @@ cp -r /Your path to PROMST/PROMST/BlocksWorld/env_data_BlocksWorld/pddlgym ./
 ```
 
 ## Usage
-Your set up do not need GPU to train the score model if you set with_score_model = 'False'
+Your system do not need GPU to train the score model if you set with_score_model = 'False'
 ```
 python env3-box-arrange-train_MCTS.py
 -experiment_trial_num 1
