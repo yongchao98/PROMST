@@ -25,7 +25,7 @@ cp -r /Your path to PROMST/PROMST/BlocksWorld/env_data_BlocksWorld/pddlgym ./
 ```
 
 ## Usage
-Your system does not need GPU to train the score model if you set with_score_model = 'False'. To run each task, you enter into each task directory and set up the OPENAI_API key in LLM.py line 11.
+Your system does not need GPU to train the score model if you set with_score_model = 'False'. To run each task, you enter into each task directory and set up the OPENAI_API key (sk-..) in LLM.py line 11. Then you can run the following code. The args can be changed with your preference.
 ```
 python env3-box-arrange-train_MCTS.py
 -experiment_trial_num 1
@@ -33,7 +33,7 @@ python env3-box-arrange-train_MCTS.py
 -model_name_promptLLM gpt-4-1106-preview
 -model_name_testLLM gpt-3.5-turbo-16k-0613
 -min_level 2
--n_children 4
+-n_children 8
 -n_selected 2
 -prompt_method PROMST
 -with_score_model 'False'
