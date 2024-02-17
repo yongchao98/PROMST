@@ -1,6 +1,6 @@
 # PRompt Optimization in Multi-Step Tasks (PROMST): Integrating Human Feedback and Preference Alignment
 # ([Website](https://yongchao98.github.io/MIT-REALM-PROMST/))
-Paper Link: https://drive.google.com/file/d/1zIRIf2WiCcRIQEKSYfTA-Sejyrdn_fmw/view?usp=share_link
+Paper Link: https://arxiv.org/pdf/2402.08702.pdf
 
 This project is for automatic prompt optimization with a focus on multi-step tasks.
 
