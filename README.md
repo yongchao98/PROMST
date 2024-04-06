@@ -46,12 +46,12 @@ python env3-box-arrange-train_MCTS.py
 
 Command for Alfworld/Scienceworld/Webarena
 ```
-python agentboard/env9-box-arrange-train_MCTS.py     --cfg-path eval_configs/main_results_all_tasks.yaml     --tasks alfworld    --log_path ./results/gpt-3.5-turbo-16k-0613     --project_name evaluate-gpt-4 --experiment_trial_num 1  --model_name_promptLLM gpt-4-1106-preview  --model_name_testLLM gpt-3.5-turbo-16k-0613 --min_level 2 --n_children 8 --n_selected 2 --prompt_method PROMST --with_score_model 'False' --base_path ./alfworld_result/
+python agentboard/env9-box-arrange-train_MCTS.py     --cfg-path eval_configs/main_results_all_tasks.yaml     --tasks alfworld    --log_path ./results/gpt-3.5-turbo-16k-0613     --project_name evaluate-gpt-4 --experiment_trial_num 1  --model_name_promptLLM gpt-4-1106-preview  --model_name_testLLM gpt-3.5-turbo-16k-0613 --min_level 2 --n_children 8 --n_selected 2 --prompt_method PROMST --with_score_model 'False' --base_path ./alfworld_result/ --max_num_steps 30
 ```
 
 Command for the restart from training process for Alfworld/Scienceworld/Webarena
 ```
-python agentboard/env9-box-arrange-train_MCTS_restart.py     --cfg-path eval_configs/main_results_all_tasks.yaml     --tasks alfworld    --log_path ./results/gpt-3.5-turbo-16k-0613     --project_name evaluate-gpt-4 --experiment_trial_num 1  --model_name_promptLLM gpt-4-1106-preview  --model_name_testLLM gpt-3.5-turbo-16k-0613 --min_level 2 --n_children 8 --n_selected 2 --prompt_method PROMST --with_score_model 'False' --base_path ./alfworld_result/
+python agentboard/env9-box-arrange-train_MCTS_restart.py     --cfg-path eval_configs/main_results_all_tasks.yaml     --tasks alfworld    --log_path ./results/gpt-3.5-turbo-16k-0613     --project_name evaluate-gpt-4 --experiment_trial_num 1  --model_name_promptLLM gpt-4-1106-preview  --model_name_testLLM gpt-3.5-turbo-16k-0613 --min_level 2 --n_children 8 --n_selected 2 --prompt_method PROMST --with_score_model 'False' --base_path ./alfworld_result/ --max_num_steps 30
 ```
 
 | Args to be set | Choices | Explanation |
