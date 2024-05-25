@@ -44,11 +44,15 @@ python env3-box-arrange-train_MCTS.py
 ```
 
 ```
-python env2-box-arrange-train_MCTS.py -experiment_trial_num 1 -input_error_prompt_token_limit 15000 -model_name_promptLLM claude-3-opus-20240229 -model_name_testLLM claude-3-opus-20240229 -min_level 2 -n_children 4 -n_selected 2 -prompt_method PROMST -with_score_model 'False' -Training_path ../BoxNet2/train_set/ -Testing_path ../BoxNet2/test_set/ -base_path ../BoxNet2/
+python env3-box-arrange-train_MCTS.py -experiment_trial_num 3 -input_error_prompt_token_limit 15000 -model_name_promptLLM gpt-4-1106-preview -model_name_testLLM gpt-3.5-turbo-16k-0613 -min_level 2 -n_children 4 -n_selected 2 -prompt_method PROMST -with_score_model 'False' -with_SumLLM 'False' -Training_path ../BoxLift/train_set/ -Testing_path ../BoxLift/test_set/ -base_path ../BoxLift/
 ```
 
 ```
-python env2-box-arrange-train_MCTS.py -experiment_trial_num 1 -input_error_prompt_token_limit 15000 -model_name_promptLLM open-mixtral-8x7b -model_name_testLLM open-mixtral-8x7b -min_level 2 -n_children 4 -n_selected 2 -prompt_method PROMST -with_score_model 'False' -Training_path ../BoxNet2/train_set/ -Testing_path ../BoxNet2/test_set/ -base_path ../BoxNet2/
+python env2-box-arrange-train_MCTS.py -experiment_trial_num 3 -input_error_prompt_token_limit 15000 -model_name_promptLLM gpt-4-1106-preview -model_name_testLLM gpt-3.5-turbo-16k-0613 -min_level 2 -n_children 4 -n_selected 2 -prompt_method PROMST -with_score_model 'True' -with_SumLLM 'False' -Training_path ../BoxNet2/train_set/ -Testing_path ../BoxNet2/test_set/ -base_path ../BoxNet2/
+```
+
+```
+python env2-box-arrange-train_MCTS.py -experiment_trial_num 1 -input_error_prompt_token_limit 15000 -model_name_promptLLM claude-3-opus-20240229 -model_name_testLLM claude-3-opus-20240229 -min_level 2 -n_children 4 -n_selected 2 -prompt_method PROMST -with_score_model 'True' -with_SumLLM 'False' -Training_path ../BoxNet2/train_set/ -Testing_path ../BoxNet2/test_set/ -base_path ../BoxNet2/
 ```
 
 ```
@@ -57,7 +61,7 @@ python env2-box-arrange-train_MCTS.py -experiment_trial_num 2 -input_error_promp
 
 Command for Alfworld/Scienceworld/Webarena
 ```
-python agentboard/env9-box-arrange-train_MCTS.py     --cfg-path eval_configs/main_results_all_tasks.yaml     --tasks alfworld    --log_path ./results/gpt-3.5-turbo-16k-0613     --project_name evaluate-gpt-4 --experiment_trial_num 1  --model_name_promptLLM gpt-4-1106-preview  --model_name_testLLM gpt-3.5-turbo-16k-0613 --min_level 2 --n_children 8 --n_selected 2 --prompt_method PROMST --with_score_model 'False' --base_path ./alfworld_result/ --max_num_steps 30
+python agentboard/env9-box-arrange-train_MCTS.py     --cfg-path eval_configs/main_results_all_tasks.yaml     --tasks alfworld    --log_path ./results/gpt-3.5-turbo-16k-0613     --project_name evaluate-gpt-4 --experiment_trial_num 1  --model_name_promptLLM gpt-4-1106-preview  --model_name_testLLM gpt-3.5-turbo-16k-0613 --min_level 2 --n_children 4 --n_selected 2 --prompt_method PROMST --with_score_model 'False' --base_path ./alfworld_result/ --max_num_steps 30
 ```
 
 Command for the restart from training process for Alfworld/Scienceworld/Webarena
