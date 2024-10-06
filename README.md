@@ -72,6 +72,17 @@ python agentboard/env9-box-arrange-train_MCTS_restart.py     --cfg-path eval_con
 | Tesing_path | ../BoxLift/train_set/, ../BoxLift/test_set/ | The path to the created test_set path (be the same as the Training_path during optimization) |
 | base_path | ../BoxLift/ | The base path to save the prompt optimization results |
 
+## 📝 Citation
+
+```bibtex
+@article{chen2024prompt,
+  title={Prompt optimization in multi-step tasks (promst): Integrating human feedback and preference alignment},
+  author={Chen, Yongchao and Arkin, Jacob and Hao, Yilun and Zhang, Yang and Roy, Nicholas and Fan, Chuchu},
+  journal={arXiv preprint arXiv:2402.08702},
+  year={2024}
+}
+```
+
 ## Recommended Work
 
 [Large language models are human-level prompt engineers](https://arxiv.org/abs/2211.01910)
