@@ -1,4 +1,4 @@
-# PRompt Optimization in Multi-Step Tasks (PROMST): Integrating Human Feedback and Preference Alignment <span style="color: #8B0000;">(EMNLP 2024, Oral, Top 3.4%)</span>
+# PRompt Optimization in Multi-Step Tasks (PROMST): Integrating Human Feedback and Preference Alignment <span style="color: red;">(EMNLP 2024, Oral, Top 3.4%)</span>
 
 # ([Website](https://yongchao98.github.io/MIT-REALM-PROMST/))
 Paper Link: https://arxiv.org/pdf/2402.08702.pdf
